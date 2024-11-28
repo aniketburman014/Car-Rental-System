@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "CarRentalSystem.Controllers.AuthController",
+    "Method": "GetCars",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalSystem.Controllers.AuthController",
+    "Method": "AddCar",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "car",
+        "Type": "CarRentalSystem.Models.Car",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalSystem.Controllers.AuthController",
+    "Method": "UpdateCar",
+    "RelativePath": "api/Auth/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedCar",
+        "Type": "CarRentalSystem.Models.Car",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalSystem.Controllers.AuthController",
+    "Method": "DeleteCar",
+    "RelativePath": "api/Auth/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalSystem.Controllers.LoginController",
+    "Method": "ValidateCred",
+    "RelativePath": "api/Login/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cred",
+        "Type": "CarRentalSystem.Models.UserCredential",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
